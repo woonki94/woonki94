@@ -25,6 +25,3 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-this is my main git,,,
-
-I think the statistics are static, could you make it work
