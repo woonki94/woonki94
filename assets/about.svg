@@ -13,6 +13,6 @@
   <rect width="100%" height="100%" fill="url(#card-grad)" rx="14" ry="14"/>
   <rect x="32" y="32" width="3" height="166" fill="#72aaff" rx="1.5" class="accentbar"/>
   <text class="heading" x="56" y="78" fill="#f3f6fc" font-family='"Inter", system-ui, sans-serif' font-size="32" font-weight="700">Research &amp; engineering.</text>
-  <text class="bio" x="56" y="128" fill="#b5c4db" font-family='"Inter", system-ui, sans-serif' font-size="15" font-weight="400"><tspan x="56" dy="0">I build LLM-powered retrieval and recommendation systems and study how</tspan><tspan x="56" dy="22">language models memorize training data. My projects span grant discovery,</tspan><tspan x="56" dy="22">privacy-preserving training, numerical optimization, and computer vision.</tspan></text>
+  <text class="bio" x="56" y="128" fill="#b5c4db" font-family='"Inter", system-ui, sans-serif' font-size="15" font-weight="400"><tspan x="56" dy="0">I build multi-agent retrieval and recommendation systems and study how</tspan><tspan x="56" dy="22">language models memorize training data. My projects span grant discovery,</tspan><tspan x="56" dy="22">privacy-preserving training, numerical optimization, and computer vision.</tspan></text>
   
 </svg>
