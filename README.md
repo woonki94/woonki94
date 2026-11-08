@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg" />
-    <img src="./assets/header.svg" width="100%" alt="Kim Woonki — M.S. in AI at Oregon State University. Applied AI, language model privacy, and machine learning optimization." />
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/woonki94/woonki94/profile-assets/neural-pulse-lattice-mobile.svg" />
+    <img src="https://raw.githubusercontent.com/woonki94/woonki94/profile-assets/neural-pulse-lattice.svg" width="100%" alt="Kim Woonki — Neural Pulse Lattice. Multi-agent systems, retrieval, and language model privacy." />
   </picture>
 </p>
 
@@ -9,15 +9,13 @@
   <a href="#selected-work">Selected work</a> &nbsp; · &nbsp;
   <a href="#optimization--computer-vision">Optimization &amp; vision</a> &nbsp; · &nbsp;
   <a href="#methods--tools">Methods &amp; tools</a> &nbsp; · &nbsp;
+  <a href="#github-activity">Activity</a> &nbsp; · &nbsp;
   <a href="https://github.com/woonki94?tab=repositories">All repositories ↗</a>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/about-mobile.svg" />
-    <img src="./assets/about.svg" width="100%" alt="Research and engineering. I build multi-agent retrieval and recommendation systems and study how language models memorize training data. My projects span grant discovery, privacy-preserving training, numerical optimization, and computer vision." />
-  </picture>
-</p>
+**M.S. in Artificial Intelligence · Oregon State University**
+
+I build **multi-agent retrieval and recommendation systems** and study how language models memorize training data. My projects span grant discovery, privacy-preserving training, numerical optimization, and computer vision.
 
 ## Selected work
 
@@ -77,6 +75,23 @@ Experiments with NanoGPT trained from scratch and GPT-2 Large fine-tuned with Lo
 - **Applications & infrastructure:** Python, Flask, SQLAlchemy, AWS S3, React, TypeScript.
 - **Optimization:** ADMM, variance reduction, convex optimization, MATLAB.
 
+## GitHub activity
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/woonki94/woonki94/profile-assets/analytics-grid-mobile.svg" />
+  <img src="https://raw.githubusercontent.com/woonki94/woonki94/profile-assets/analytics-grid.svg" width="100%" alt="Analytics Grid — actual GitHub contributions, active streak, merged public pull requests, and recent activity." />
+</picture>
+
+[Daily refresh ↗](https://github.com/woonki94/woonki94/actions/workflows/profile-visuals.yml) · [Data snapshot ↗](https://github.com/woonki94/woonki94/blob/profile-assets/activity-summary.json)
+
+### Contribution snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/woonki94/woonki94/profile-assets/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/woonki94/woonki94/profile-assets/snake.svg" />
+  <img src="https://raw.githubusercontent.com/woonki94/woonki94/profile-assets/snake.svg" width="100%" alt="Snake Eat Graph — an animated snake following my actual GitHub contribution calendar." />
+</picture>
+
 <br />
 
 <a href="https://github.com/woonki94?tab=repositories">
@@ -89,7 +104,9 @@ Experiments with NanoGPT trained from scratch and GPT-2 Large fine-tuned with Lo
 <details>
 <summary>Design credits</summary>
 
-Header and introduction adapted from [RyMe.md — Sleek](https://github.com/ryanpolasky/ryme.md). Technology icons from [Skill Icons](https://github.com/tandpfun/skill-icons). Both are used under the MIT license; notices are included in [vendor/ryme/LICENSE](./vendor/ryme/LICENSE) and [assets/icons/LICENSE](./assets/icons/LICENSE).
+[Neural Pulse Lattice](https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/09-avant-garde/neural-pulse-lattice), [Analytics Grid](https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/05-dashboard/analytics-grid), and [Snake Eat Graph](https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/04-gamified/snake-eat-graph) are adapted from Awesome GitHub Profile. The snake is generated with [Platane/snk](https://github.com/Platane/snk). The matching project cards and footer use the earlier navy palette; icons come from [Skill Icons](https://github.com/tandpfun/skill-icons).
+
+Original templates and MIT notices are preserved under [vendor/awesome-github-profile/](./vendor/awesome-github-profile/) and [assets/icons/LICENSE](./assets/icons/LICENSE). The earlier RyMe renderers and their license remain in [vendor/ryme/](./vendor/ryme/).
 
 The profile uses repository-hosted SVG assets. See [design notes](./DESIGN.md) for regeneration and customization.
 
