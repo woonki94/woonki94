@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="Kim Woonki — Applied AI">
+  <title>Kim Woonki — Applied AI</title>
+  <desc>Multi-agent systems and language model privacy. Compact Swiss Grid header.</desc>
+  <defs>
+    <!-- Twelve columns across a 1056 measure: 72 gutter, 76 column, 24 gap.
+         Drawn at 6% so the structure is legible without competing. -->
+    <pattern id="sg-col" x="72" y="0" width="88" height="420" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="76" height="420" fill="#0f0f0f" opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" fill="#f2f0eb"/>
+  <rect x="72" y="0" width="1056" height="420" fill="url(#sg-col)"/>
+
+  <!-- Baselines. A Swiss layout is a grid in both directions. -->
+  <g stroke="#0f0f0f" opacity="0.09">
+    <line x1="72" y1="72" x2="1128" y2="72"/>
+    <line x1="72" y1="156" x2="1128" y2="156"/>
+    <line x1="72" y1="240" x2="1128" y2="240"/>
+    <line x1="72" y1="324" x2="1128" y2="324"/>
+  </g>
+
+  <!-- Head rule, full measure, heavy. -->
+  <rect x="72" y="42" width="1056" height="6" fill="#0f0f0f"/>
+
+
+  <g font-family="Helvetica Neue,Helvetica,Arial,system-ui,sans-serif">
+    <g font-family="ui-monospace,Menlo,Consolas,monospace" font-size="15" fill="#6d6a63" letter-spacing="2">
+      <text x="72" y="76">ARTIFICIAL INTELLIGENCE</text>
+      <text x="1128" y="76" text-anchor="end">RESEARCH / ENGINEERING</text>
+    </g>
+    <text x="68" y="165" font-size="88" font-weight="700" fill="#0f0f0f" letter-spacing="-4">Kim</text>
+    <text x="246" y="165" font-size="88" font-weight="700" fill="#d0021b" letter-spacing="-4">Woonki</text>
+    <text x="816" y="125" font-size="26" font-weight="500" fill="#0f0f0f">Multi-agent systems</text>
+    <text x="816" y="162" font-size="26" font-weight="500" fill="#0f0f0f">Language model privacy</text>
+    <path d="M72 200H1128" stroke="#0f0f0f" stroke-width="1.5"/>
+  </g>
+</svg>

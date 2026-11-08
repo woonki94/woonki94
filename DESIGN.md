@@ -1,25 +1,23 @@
 # Profile design
 
-The README uses RyMe.md Sleek header/about renderers, Skill Icons, and matching project cards. All SVGs are committed locally; loading the profile does not call a stats API or an image-generation service.
+The profile uses a compact Swiss Grid masthead with a paper/ink/red palette. Project descriptions, academic background, and technical details are native Markdown so text follows GitHub's font size, color theme, browser zoom, and narrow-screen wrapping.
 
-## Update
+Only the masthead is a text-bearing SVG. A mobile version is selected through `<picture>` at viewport widths up to 600 px. The larger Sleek panels from the previous iteration are preserved in the repository history/assets but are no longer embedded.
 
-Edit the profile copy and theme in `scripts/build-profile.mjs`. With Node.js 22.18 or newer:
+## Regenerate the headers
+
+With Node.js 18 or newer, run:
 
 ```sh
 node scripts/build-profile.mjs
 ```
 
-The script uses Node's built-in TypeScript stripping, requires no package installation, and regenerates ten desktop/mobile files under `assets/`. README project descriptions and methods remain editable as Markdown. No scheduled workflow or token is required.
+No packages, API calls, scheduled workflows, or tokens are required. Edit the README directly to update the content.
 
-## Sources and adaptations
+## Sources
 
-- [RyMe.md](https://github.com/ryanpolasky/ryme.md), MIT, copyright 2026 Ryan Polasky. Original renderers and their shared text utilities are preserved under `vendor/ryme/`. Adaptations: blue palette, stable visible text, a research-focus rail, geometric background accents, a shorter about panel, and its section title.
-- [Skill Icons](https://github.com/tandpfun/skill-icons), MIT. Seven original SVG icons and the license are included under `assets/icons/`.
-- Project card layouts and footer are custom SVGs. The small illustrations are decorative, not architectural diagrams or performance claims.
+- [Awesome GitHub Profile — Swiss Grid](https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/11-swiss-brutalist/swiss-grid). The original SVG and MIT notice are preserved in `vendor/awesome-github-profile/`. Adapted into a shorter masthead with larger typography and a mobile layout.
+- [Skill Icons](https://github.com/tandpfun/skill-icons). The original icons and MIT notice are included under `assets/icons/`.
+- Multi-agent roles and orchestration are based on the public implementation in `woonki94/grant-matching-agent/services/agent_v2/`. No resume attachment, private contact details, or unverified performance figures are stored in this repository.
 
-Names, degree status, university affiliation, and project descriptions are based on the existing public GitHub profile and linked repositories. No private projects or unverified performance statistics are included.
-
-The existing `profile-3d-contrib/` assets are preserved but not embedded in this design.
-
-Responsive `<picture>` sources switch to layouts with larger text at viewport widths up to 600 px.
+The earlier `vendor/ryme/` files and legacy contribution SVGs are preserved with their license notices.
