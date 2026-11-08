@@ -75,31 +75,7 @@ Experiments with NanoGPT trained from scratch and GPT-2 Large fine-tuned with Lo
 - **Applications & infrastructure:** Python, Flask, SQLAlchemy, AWS S3, React, TypeScript.
 - **Optimization:** ADMM, variance reduction, convex optimization, MATLAB.
 
-## GitHub activity
 
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/woonki94/woonki94/profile-assets/analytics-grid-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/woonki94/woonki94/profile-assets/analytics-grid.svg" width="100%" alt="Analytics Grid — actual GitHub contributions, active streak, merged public pull requests, and recent activity." />
-</picture>
-
-[Daily refresh ↗](https://github.com/woonki94/woonki94/actions/workflows/profile-visuals.yml) · [Data snapshot ↗](https://github.com/woonki94/woonki94/blob/profile-assets/activity-summary.json)
-
-### Contribution snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/woonki94/woonki94/profile-assets/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/woonki94/woonki94/profile-assets/snake.svg" />
-  <img src="https://raw.githubusercontent.com/woonki94/woonki94/profile-assets/snake.svg" width="100%" alt="Snake Eat Graph — an animated snake following my actual GitHub contribution calendar." />
-</picture>
-
-<br />
-
-<a href="https://github.com/woonki94?tab=repositories">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/footer-mobile.svg" />
-    <img src="./assets/footer.svg" width="100%" alt="Research. Implement. Evaluate. — Explore all repositories." />
-  </picture>
-</a>
 
 <details>
 <summary>Design credits</summary>
