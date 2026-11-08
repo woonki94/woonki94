@@ -1,0 +1,51 @@
+name: Refresh profile visuals
+
+on:
+  schedule:
+    - cron: '23 21 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-visuals.yml'
+      - 'scripts/profile-visuals.mjs'
+      - 'vendor/awesome-github-profile/neural-pulse-lattice.original.svg'
+      - 'vendor/awesome-github-profile/analytics-grid.original.svg'
+
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Generate real GitHub analytics and neural artwork
+        run: node scripts/profile-visuals.mjs --output .generated
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: woonki94
+          outputs: |
+            .generated/snake.svg?palette=github-light&color_snake=%2360a5fa
+            .generated/snake-dark.svg?palette=github-dark&color_snake=%2372aaff&color_dots=%23101a2e,%231d365b,%232c5689,%234583c0,%2372aaff
+      - name: Publish generated SVG assets
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
+        with:
+          target_branch: profile-assets
+          build_dir: .generated
+          keep_history: true
+          commit_message: 'chore: refresh profile analytics and contribution snake'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
