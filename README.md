@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Kim Woonki — M.S. Student in AI at Oregon State University. Applied AI, language model privacy, and machine learning optimization." />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg" />
+    <img src="./assets/header.svg" width="100%" alt="Kim Woonki — M.S. Student in AI at Oregon State University. Applied AI, language model privacy, and machine learning optimization." />
+  </picture>
 </p>
 
 <p align="center">
@@ -10,13 +13,19 @@
 </p>
 
 <p align="center">
-  <img src="./assets/about.svg" width="100%" alt="Research and engineering. I build LLM-powered retrieval and recommendation systems and study how language models memorize training data. My projects span grant discovery, privacy-preserving training, numerical optimization, and computer vision." />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/about-mobile.svg" />
+    <img src="./assets/about.svg" width="100%" alt="Research and engineering. I build LLM-powered retrieval and recommendation systems and study how language models memorize training data. My projects span grant discovery, privacy-preserving training, numerical optimization, and computer vision." />
+  </picture>
 </p>
 
 ## Selected work
 
 <a href="https://github.com/woonki94/grant-matching-agent">
-  <img src="./assets/project-grant.svg" width="100%" alt="01 — GrantFetcher. Research funding discovery with LLMs and semantic matching." />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/project-grant-mobile.svg" />
+    <img src="./assets/project-grant.svg" width="100%" alt="01 — GrantFetcher. Research funding discovery with LLMs and semantic matching." />
+  </picture>
 </a>
 
 A system for matching faculty research profiles with grant opportunities. The pipeline combines data ingestion, document extraction, keyword generation, embedding-based matching, reranking, and recommendation explanations.
@@ -29,7 +38,10 @@ A system for matching faculty research profiles with grant opportunities. The pi
 <br />
 
 <a href="https://github.com/woonki94/privacy-defense-gpt2">
-  <img src="./assets/project-privacy.svg" width="100%" alt="02 — Data Extraction and Defense in LLMs. Memorization, extraction attacks, and differential privacy." />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/project-privacy-mobile.svg" />
+    <img src="./assets/project-privacy.svg" width="100%" alt="02 — Data Extraction and Defense in LLMs. Memorization, extraction attacks, and differential privacy." />
+  </picture>
 </a>
 
 Experiments with NanoGPT trained from scratch and GPT-2 Large fine-tuned with LoRA, comparing private and non-private training. The project includes DP-SGD, memory-efficient gradient clipping, extraction analysis, and generation-quality evaluation.
@@ -65,7 +77,10 @@ Experiments with NanoGPT trained from scratch and GPT-2 Large fine-tuned with Lo
 <br />
 
 <a href="https://github.com/woonki94?tab=repositories">
-  <img src="./assets/footer.svg" width="100%" alt="Research. Implement. Evaluate. — Explore all repositories." />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/footer-mobile.svg" />
+    <img src="./assets/footer.svg" width="100%" alt="Research. Implement. Evaluate. — Explore all repositories." />
+  </picture>
 </a>
 
 <details>

@@ -10,7 +10,7 @@ Edit the profile copy and theme in `scripts/build-profile.mjs`. With Node.js 22.
 node scripts/build-profile.mjs
 ```
 
-The script uses Node's built-in TypeScript stripping, requires no package installation, and regenerates five files under `assets/`. README project descriptions and methods remain editable as Markdown. No scheduled workflow or token is required.
+The script uses Node's built-in TypeScript stripping, requires no package installation, and regenerates ten desktop/mobile files under `assets/`. README project descriptions and methods remain editable as Markdown. No scheduled workflow or token is required.
 
 ## Sources and adaptations
 
@@ -21,3 +21,5 @@ The script uses Node's built-in TypeScript stripping, requires no package instal
 Names, degree status, university affiliation, and project descriptions are based on the existing public GitHub profile and linked repositories. No private projects or unverified performance statistics are included.
 
 The existing `profile-3d-contrib/` assets are preserved but not embedded in this design.
+
+Responsive `<picture>` sources switch to layouts with larger text at viewport widths up to 600 px.
